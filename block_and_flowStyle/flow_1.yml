@@ -1,0 +1,4 @@
+---
+fruits: [banana, apple, mango]
+
+japan: {capital: Tokyo, population: 126.3m, island: true}
