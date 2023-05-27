@@ -1,7 +1,6 @@
 import yaml
 
-# my_file = "block_1.yml"
-my_file = "flow_1.yml"
+my_file = "sets_1.yml"
 
 with open(my_file, 'r', encoding='utf8') as stream:
 
@@ -9,10 +8,11 @@ with open(my_file, 'r', encoding='utf8') as stream:
         data = yaml.safe_load(stream)
         for key, value in data.items():
             
-            print(f"KEY : {key}")
-            print(f"VALUE : {value}")
+            print(f"{key}: {value}")
+            print("----")
             dt = type(value)
             print(f"Data type od {value} is {dt}")
-            
+            print("-----")
+
     except yaml.YAMLError as err:
         print(err)

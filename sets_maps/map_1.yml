@@ -1,0 +1,16 @@
+---
+dc1:
+  datacenter: "dc-na-1"
+  dlocation: "Bengalore"
+  known_issues: null
+  server_count: 3000
+  on-site-staff: 
+    - dev Prabhu
+    - srikanth R
+    - arunn J
+    - Vamsi G
+  clients:
+    walmart:
+      id: 101
+      details: ~
+...
