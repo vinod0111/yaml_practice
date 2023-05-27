@@ -1,0 +1,9 @@
+# example of sets
+---
+groceries: !!set
+  ? Milk
+  ? Bread
+  ? Vegetables
+  ? Pepper
+  ? Milk
+...
