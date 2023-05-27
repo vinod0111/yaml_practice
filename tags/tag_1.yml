@@ -1,0 +1,9 @@
+---
+servermake: dell
+staged_year: !!str 2015
+throughput: !!float 19026
+max-cpu-socket: 2
+max-cpu-core-per-socket: 8
+usb-ports: 4
+
+## forcing to be string
