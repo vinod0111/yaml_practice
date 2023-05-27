@@ -1,0 +1,18 @@
+---
+make: &make dell 720
+
+server1:
+  servermake: *make
+  staged_year: 2015
+  max-cpu-socket: 2
+  max-cpu-core-per-socket: 8
+  usb-ports: 4
+
+server2:
+  servermake: *make
+  staged_year: 2015
+  max-cpu-socket: 2
+  max-cpu-core-per-socket: 8
+  usb-ports: 4
+
+## & -> anchor , * -> alias

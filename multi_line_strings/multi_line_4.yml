@@ -1,0 +1,26 @@
+---
+dc1:
+  datacenter: "dc-na-1"
+  dclocation: "Bengalore"
+  known_issues: ~
+  server_count: 3000
+  note1: |3-
+      dc-na-1 was came to operation in 
+        the year 2018 and was 
+      holding still
+
+
+  ## above will preserve 1 blank space in each line 
+  ## and also maintain indentaion as below one throw error
+  # note1: |3-
+  #     dc-na-1 was came to operation in 
+  #       the year 2018 and was 
+  #   holding still
+  note2: >- 
+      it was architectured to handle 
+      the fault tolarant system and 
+      also disaster recovery"
+
+
+  ## above will not reserve \n after the string
+...
