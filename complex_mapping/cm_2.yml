@@ -1,0 +1,17 @@
+---
+datacenter: "dc-na-1"
+dclocation: "Bengalore"
+known_issues: ~
+server_count: 3000
+? when was air cooliing upgraded
+: 2019
+? how old is this dc
+: 10 year old
+? |+
+  yaml is a very easy to use language and 
+  can be used anywhere
+: True
+...
+
+### ? used to denote complex keys
+### also can be combined with | and + for preserving \n
