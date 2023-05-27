@@ -1,0 +1,14 @@
+---
+- name: "update webserver"
+  hosts: webservers
+  remote_users: root
+  tasks:
+    - name: Ensure apache is at latest apiVersion
+      yum:
+        name: httpd
+        state: latest
+    - name: write the apache config file
+      template:
+        src: /srv/httpd.j2
+        dest: /etc/httpd.conf
+         

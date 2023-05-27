@@ -1,0 +1,16 @@
+apiversion: v1
+kind: Service
+metadata:
+  name: nginx
+  labels:
+    app: nginx
+spec:
+  ports:
+    - port: 80
+      name: web
+  clusterIP: None
+  selector:
+    app: nginx
+
+# in spec/ports: [] -> [port, name] two values in one ref
+
